@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+
+    <form onsubmit="return validate();">
+
+        <h2>JavaScript Form Validation</h2>
+        <input id="name" type="text" placeholder="Your name">
+        <input id="email" type="email" placeholder="Your email">
+        <input id="message"  type="message" placeholder="Your message">
+
+        <div class="checkbox-container">
+          <input id="check" type="checkbox">
+          <label>with select this icon, you are agree with our privacy policy</label>
+        </div>
+
+        <div class="submit"><input type="submit"></div>
+
+        <div id="error_message"></div>
+
+      </form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
